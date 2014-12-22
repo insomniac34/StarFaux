@@ -46,21 +46,21 @@ void main(void)
       float distance = length(vertexToLightSource);
       lightDirection = normalize(vertexToLightSource);
       attenuation = 1.0 / (light0.constantAttenuation
-			   + light0.linearAttenuation * distance
-			   + light0.quadraticAttenuation * distance * distance);
+               + light0.linearAttenuation * distance
+               + light0.quadraticAttenuation * distance * distance);
  
       if (light0.spotCutoff <= 90.0) // spotlight
-	{
-	  float clampedCosine = max(0.0, dot(-lightDirection, normalize(light0.spotDirection)));
-	  if (clampedCosine < cos(light0.spotCutoff * 3.14159 / 180.0)) // outside of spotlight cone
-	    {
-	      attenuation = 0.0;
-	    }
-	  else
-	    {
+    {
+      float clampedCosine = max(0.0, dot(-lightDirection, normalize(light0.spotDirection)));
+      if (clampedCosine < cos(light0.spotCutoff * 3.14159 / 180.0)) // outside of spotlight cone
+        {
+          attenuation = 0.0;
+        }
+      else
+        {
               attenuation = attenuation * pow(clampedCosine, light0.spotExponent);
-	    }
-	}
+        }
+    }
     }
   vec3 diffuseReflection = attenuation
     * vec3(light0.diffuse) * vec3(mymaterial.diffuse)

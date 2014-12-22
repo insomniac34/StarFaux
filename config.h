@@ -45,9 +45,9 @@ extern float NPC_WEAPON_DAMAGE;
 
 #define NPC_HOSTILE 0
 #define NPC_NEUTRAL 1
-#define NPC_FRIENDLY 2			
+#define NPC_FRIENDLY 2          
 
-//rate of fire				
+//rate of fire              
 #define ROF_SUPER_LOW 10
 #define ROF_LOW 8
 #define ROF_MEDIUM 6

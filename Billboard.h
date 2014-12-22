@@ -19,18 +19,18 @@
 class Billboard
 {
 public:
-	
-	float color[4];
-	float local_p[4];
-	float width;
-	float height;
-	GLuint texture;
-	
-	Billboard(GLuint tex, float w, float h, float posx, float posy, float posz);
-	~Billboard() {};
-	
-	void draw();
-	void billboardBegin();
-	void billboardEnd();
-	
+    
+    float color[4];
+    float local_p[4];
+    float width;
+    float height;
+    GLuint texture;
+    
+    Billboard(GLuint tex, float w, float h, float posx, float posy, float posz);
+    ~Billboard() {};
+    
+    void draw();
+    void billboardBegin();
+    void billboardEnd();
+    
 };

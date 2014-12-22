@@ -1,6 +1,6 @@
 /*
 
-	written by Charlies Koch and Tyler Raborn
+    written by Charlies Koch and Tyler Raborn
 
 */
 
@@ -12,13 +12,13 @@
 
 //OpenGL Headers
 #ifdef __APPLE__
-	#include <GLUT/glut.h>
-	#include <OpenGL/gl.h>
-	#include <OpenGL/glu.h>
+    #include <GLUT/glut.h>
+    #include <OpenGL/gl.h>
+    #include <OpenGL/glu.h>
 #else
-	#include <GL/glut.h>
-	#include <GL/gl.h>
-	#include <GL/glu.h>
+    #include <GL/glut.h>
+    #include <GL/gl.h>
+    #include <GL/glu.h>
 #endif
 
 //local headers
@@ -31,27 +31,27 @@
 class Light
 {
 public:
-	Light();
-	Light(GLdouble[]);
-	~Light();
+    Light();
+    Light(GLdouble[]);
+    ~Light();
 
-	GLdouble *getPos();
-	vec3 *getDir();
-	GLdouble *getAmbient();
-	GLdouble *getDiffuse();
-	GLdouble *getEmission();
-	GLdouble getShine();
+    GLdouble *getPos();
+    vec3 *getDir();
+    GLdouble *getAmbient();
+    GLdouble *getDiffuse();
+    GLdouble *getEmission();
+    GLdouble getShine();
 
-	//light location:
-	GLdouble position[3];
-	vec3 dir;
+    //light location:
+    GLdouble position[3];
+    vec3 dir;
 
-	//light properties:
-	GLdouble amb[3];
-	GLdouble diff[3];
-	GLdouble emission[3];
-	GLdouble specular[3];
-	GLdouble shine;
+    //light properties:
+    GLdouble amb[3];
+    GLdouble diff[3];
+    GLdouble emission[3];
+    GLdouble specular[3];
+    GLdouble shine;
 
 private:
 

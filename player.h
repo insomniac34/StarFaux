@@ -1,9 +1,9 @@
 /****************************************************
- FILE:		player.h
- PLATFORM:	Mac OS X
- AUTHOR:		Charles Koch
- DATE:		December 2, 2013
- DESC:		Header for the Player Character.
+ FILE:      player.h
+ PLATFORM:  Mac OS X
+ AUTHOR:        Charles Koch
+ DATE:      December 2, 2013
+ DESC:      Header for the Player Character.
  ****************************************************/
 
 #include <cmath>
@@ -28,32 +28,32 @@ extern int INCREASE_SPEED;
 extern int DECREASE_SPEED;
 
 class player
-{	
+{   
 public:
-	float max_pitch, max_roll;
-	float pitch_interval, roll_interval, roll_boost;
-	float barrel_interval, barrel_angle;
-	float max_move, camera_move, move_interval;
-	
-	typedef struct button
-	{
-		int is_down;
-		int timer;
-	}button;
-	
-	Shape3D* ship;
-	button gamepad[10];
-	int barrel_roll;
-	
-	float health;
-	float boost;
-	
-	player();
-	~player();
-	
-	void update(float origin[3]);
-	void update_input();
-	void update_rotation();
-	void keyPressed(unsigned char key);
-	void keyReleased(unsigned char key);
+    float max_pitch, max_roll;
+    float pitch_interval, roll_interval, roll_boost;
+    float barrel_interval, barrel_angle;
+    float max_move, camera_move, move_interval;
+    
+    typedef struct button
+    {
+        int is_down;
+        int timer;
+    }button;
+    
+    Shape3D* ship;
+    button gamepad[10];
+    int barrel_roll;
+    
+    float health;
+    float boost;
+    
+    player();
+    ~player();
+    
+    void update(float origin[3]);
+    void update_input();
+    void update_rotation();
+    void keyPressed(unsigned char key);
+    void keyReleased(unsigned char key);
 };

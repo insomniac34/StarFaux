@@ -1,9 +1,9 @@
 /****************************************************
- FILE:		matrixmath.h
- PLATFORM:	Mac OS X
- AUTHOR:		Charles Koch
- DATE:		October 26, 2013
- DESC:		Header file for matrixmath.cpp
+ FILE:      matrixmath.h
+ PLATFORM:  Mac OS X
+ AUTHOR:        Charles Koch
+ DATE:      October 26, 2013
+ DESC:      Header file for matrixmath.cpp
  ****************************************************/
 
 /*
