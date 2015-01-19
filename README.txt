@@ -1,7 +1,9 @@
 
 
-<><><><><><><><><><><>_________________STAR FAUX v1.0_________________<><><><><><><><><><><>
-							Written by Tyler Raborn & Charlie Koch
+StarFaux in Action: https://www.youtube.com/watch?v=qz-RjME557M
+
+					STAR FAUX v1.0
+			    Written by Tyler Raborn & Charlie Koch
 
 *****************************************************Section I: Usage*********************************************************************
 
