@@ -1,7 +1,8 @@
 
 
 		StarFaux in Action: https://www.youtube.com/watch?v=qz-RjME557M
-		NOTE: THIS VIDEO IS OLD and doesn't contain "new features" like powerups and friendly NPC's
+		
+  NOTE: THIS VIDEO IS OLD and doesn't contain "new features" like powerups and friendly NPC's
 
 
 					STAR FAUX v1.0
