@@ -1,9 +1,6 @@
 /********************************************************************************
 * @Developer: Tyler Raborn
-* @Course: CS1566 
 * @Description: Method & Constructor definitions for my Camera class
-* @Dev Environment: Microsoft Visual Studio 2012, Windows 8 Pro 64-bit
-* @GPU: nVidia GeForce GTX 670 2GB
 *********************************************************************************/
 
 //DEFINITIONS:
